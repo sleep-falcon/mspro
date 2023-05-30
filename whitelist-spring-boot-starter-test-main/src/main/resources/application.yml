@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+# 白名单用户
+whitelist:
+  users: 127,aaa,yly

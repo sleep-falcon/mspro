@@ -1,0 +1,7 @@
+server:
+  port: 8082
+
+redis:
+  host: 172.16.53.128
+  port: 6379
+  pwd: 123456

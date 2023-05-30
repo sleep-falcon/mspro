@@ -1,0 +1,11 @@
+server:
+  port: 7397
+
+mybatis:
+  datasource:
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true
+    username: root
+    password: 123456
+    mapper-locations: classpath*:mapper/*.xml
+    base-dao-package: middleware.test.infrastructure.dao

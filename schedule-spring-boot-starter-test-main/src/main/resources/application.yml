@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: schedule-spring-boot-starter-test
+
+middleware:
+    scheudle:
+      zkAddress: 127.0.0.1:2181
+      schedulerServerId: schedule-spring-boot-starter-test
+      schedulerServerName: 分布式任务测试

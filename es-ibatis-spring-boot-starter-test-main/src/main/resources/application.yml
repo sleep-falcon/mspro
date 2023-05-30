@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+es-ibatis:
+  address: jdbc:es://http://localhost:9200
+  base-package: middleware.test.infrastructure.dao
+  mappers: mapper/User_Mapper.xml
